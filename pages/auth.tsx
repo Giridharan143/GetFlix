@@ -15,7 +15,7 @@ const Auth = () => {
 
     return (
             <div className="relative h-full w-full bg-[url('/images/hero.jpg')] bg-no-repeat bg-center bg-fixed bg-cover">
-  <div className="bg-black/50 w-full h-full">
+  <div className="bg-black/50 w-full h-full lg:bg-black/50">
     <nav className="px-12 py-5">
       <Image src="/images/logo.jpg" alt="logo" width={48} height={48} />
     </nav>
@@ -50,9 +50,9 @@ const Auth = () => {
          {variant === 'login' ? 'Login' : 'Register'}
         </button>
           <p className="text-neutral-500 mt-12">
-              Using Getflix for first time ? 
+              {variant === 'login' ? 'Using Getflix for first time ? ' :'Already Have an account? '}
               <span onClick={toggleVariant} className="text-white ml-1 hover:underline cursor-pointer"> 
-                  Create an Account
+                 {variant === 'login' ? 'Create an Account' : 'Login'}
               </span>
           </p>
       </div>
