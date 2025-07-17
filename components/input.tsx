@@ -2,7 +2,7 @@ import react from 'react';
 
 interface InputProps {
   id: string;
-  onchange: (ev: React.ChangeEvent<HTMLInputElement>) => void;
+  onchange: (ev: React.ChangeEvent<HTMLInputElement>) => void; // ✅ Correct type
   value: string;
   label: string;
   type?: string;
