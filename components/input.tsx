@@ -1,12 +1,13 @@
 import react from 'react';
 
-interface InputProps{
-    id:string;
-    onchange:any;
-    value:string;
-    label:string;
-    type?:string;
+interface InputProps {
+  id: string;
+  onchange: (ev: React.ChangeEvent<HTMLInputElement>) => void;
+  value: string;
+  label: string;
+  type?: string;
 }
+
 
 const Input: react.FC<InputProps> = ({
     id,onchange,value,label,type
