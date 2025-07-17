@@ -2,5 +2,6 @@ YT Link :- https://youtu.be/mqUN4N2q4qY
 
 -> 27:14 -> Time Stamp till completion for the project
 -> 1:08:10 -> Completed till the part of JWT Token
+-> 1:15:24 -> Completed till this part, but I am having multiple issues in the prisma client
 
 Hosted the application in this URL :- https://getflix-blush.vercel.app/auth
